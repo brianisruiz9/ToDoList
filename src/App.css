@@ -8,21 +8,6 @@
   pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -30,4 +15,63 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+nav{
+	background: #72c0db;
+	color: white;
+}
+nav hr{
+	line-height:50px;
+	color:white;
+	border:1px solid white;
+	height:50px;
+	margin-bottom: 1%;
+	margin-right: 3%;
+	margin-left: 3%;
+	font-size: 2em;
+}
+nav span{
+	font-weight: bold;
+	font-size: 20px;
+
+}
+a button{
+	margin-top: 1.5%;
+	margin-left: 88%;
+	margin-bottom: 1.5%;
+}
+#but{
+	margin-top: 5%;
+}
+#tab{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+table{
+	background-color: white;
+	box-shadow: 00 2px 4px rgba(52, 58, 64, 0.1);
+}
+thead{
+	background-color: #194767;
+	color: white;
+}
+#edit{
+	color: #C1C1C1;
+	margin-right: 10%;
+}
+#del{
+	color: #FFB0B0;
+	cursor: pointer;
+
+}
+#del1{
+	color: #FFB0B0;
+	cursor: pointer;
+}
+#check{
+	color: #C1C1C1;
+}
+#check1{
+	color: #FFB0B0;
 }
