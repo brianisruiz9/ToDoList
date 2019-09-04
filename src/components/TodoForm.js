@@ -42,6 +42,7 @@ class TodoForm extends Component {
               value={this.state.title}
               onChange={this.handleInputChange}
               placeholder="Title"
+              required
               />
           </div>
           <div className="form-group">
@@ -51,6 +52,7 @@ class TodoForm extends Component {
               className="form-control"
               value={this.state.date}
               onChange={this.handleInputChange}
+              required
               />
           </div>
           <div className="form-group">
@@ -61,10 +63,11 @@ class TodoForm extends Component {
               value={this.state.description}
               onChange={this.handleInputChange}
               placeholder="Description"
+              required
               />
           </div>
-          <button type="submit" className="btn btn-primary">
-            Save
+          <button type="submit" className="btn btn-info">
+            Add Task
           </button>
         </form>
       </div>
